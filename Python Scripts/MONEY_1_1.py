@@ -11,7 +11,7 @@ import datetime
 from dateutil.rrule import rrule, FR, WEEKLY
 
 # Set up your OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 # Gather historical price data
 symbol = 'SPY'

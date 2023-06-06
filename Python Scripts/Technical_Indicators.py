@@ -11,7 +11,7 @@ import openai
 from datetime import datetime, timedelta
 
 
-openai.api_key = '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'
+openai.api_key = ''
 
 def calculate_rsi(data, window):
     delta = data.diff()

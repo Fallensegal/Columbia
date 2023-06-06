@@ -12,7 +12,7 @@ from dateutil.rrule import rrule, WEEKLY, MO, FR
 from dateutil.relativedelta import relativedelta
 
 # Set up your OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 # Gather historical price and volume data
 symbol = 'SPY'
