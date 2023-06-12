@@ -7,3 +7,12 @@
 [submodule "/home/wislam/myProjects/Columbia/citadel"]
 	path = /home/wislam/myProjects/Columbia/citadel
 	url = https://github.com/Fallensegal/Citadel.git
+[submodule "Citadel"]
+	path = Citadel
+	url = https://github.com/Fallensegal/Citadel
+[submodule "Sage"]
+	path = Sage
+	url = https://github.com/Fallensegal/Sage
+[submodule "Vigil"]
+	path = Vigil
+	url = https://github.com/Fallensegal/Vigil
