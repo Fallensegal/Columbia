@@ -1,0 +1,9 @@
+[submodule "/home/wislam/myProjects/Columbia/vigil"]
+	path = /home/wislam/myProjects/Columbia/vigil
+	url = https://github.com/Fallensegal/Vigil.git
+[submodule "/home/wislam/myProjects/Columbia/sage"]
+	path = /home/wislam/myProjects/Columbia/sage
+	url = https://github.com/Fallensegal/Sage.git
+[submodule "/home/wislam/myProjects/Columbia/citadel"]
+	path = /home/wislam/myProjects/Columbia/citadel
+	url = https://github.com/Fallensegal/Citadel.git
