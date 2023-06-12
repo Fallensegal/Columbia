@@ -1,0 +1,9 @@
+[submodule "Citadel"]
+	path = Citadel
+	url = https://github.com/Fallensegal/Citadel
+[submodule "Sage"]
+	path = Sage
+	url = https://github.com/Fallensegal/Sage
+[submodule "Vigil"]
+	path = Vigil
+	url = https://github.com/Fallensegal/Vigil
