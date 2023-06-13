@@ -1,13 +1,17 @@
 import yfinance as yf
 
-class Entity:
+class YFinance_Stock:
     def __init__(self, ticker):
         self.ticker = ticker
-        self.data = None
+        self.RSI = None
+        self.MACD = None
+        self.BB = None
+        self.VWAP = None
+        self.Price = None 
 
-    def get_data(self, period="1y"):
+    def get_price(self, period="1y"):
         # get historical market data
-        self.data = yf.Ticker(self.ticker).history(period=period)
+        self.price = yf.Ticker(self.ticker).history(period=period)
 
     def get_close_prices(self):
         return self.data['Close'] if self.data is not None else None
@@ -22,9 +26,6 @@ class Entity:
         self.data['monthly_close'] = self.data['Close'].resample('M').last()
 
 
-class Stock(Entity):
-    def __init__(self, ticker):
-        super().__init__(ticker)
 
 
 
