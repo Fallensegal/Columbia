@@ -1,7 +1,11 @@
 
+import sys
+import pandas as pd
 import pytest
 import yfinance as yf
-from test_YFinance_StockClass2 import YFinance_Stock
+import sys
+sys.path.insert(0, '/home/mahir/Columbia/api_preprocessor/yfinance')
+from YFinance_StockClass2 import YFinance_Stock
 
 class TestYFinanceStock:
 
@@ -11,12 +15,12 @@ class TestYFinanceStock:
 
     def test_get_price(self, stock):
         stock.get_price()
-        assert isinstance(stock.price, yf.base.TickerBase)  
+        assert isinstance(stock.price, pd.DataFrame)
 
     def test_get_close_prices(self, stock):
         stock.get_price()
         result = stock.get_close_prices()
-        assert isinstance(result, list)  
+        assert isinstance(result, pd.Series)
 
     def test_calculate_daily_close(self, stock):
         stock.get_price()
